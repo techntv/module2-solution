@@ -52,8 +52,7 @@ p{
   position: absolute;
   top: 0;
   right: 0;
-  background-color: yellow;
-  width: 120px;
+  width: 130px;
   height: 30px;
   text-align: center;
 }
@@ -61,7 +60,36 @@ p{
   padding-top: 25px;
 }
 
+.red{
+  background-color: red;
+  color: #fff;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+}
 
 /*****************************
       Media Queries
 ******************************/
+@media (min-width: 768px) {
+  .grid-2{
+    width: 45%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+  }
+}
