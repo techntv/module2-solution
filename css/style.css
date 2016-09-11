@@ -1,13 +1,67 @@
 
-body{
-  background-color: lightblue;
+/*****************************
+        Base Style
+******************************/
+*{
+  box-sizing: border-box;
 }
 
+body{
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+/*****************************
+        Typhography Style
+******************************/
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  line-height: 1.4;
+}
+/*****************************
+        Layout Style
+******************************/
 .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
+/*****************************
+      Header Style
+******************************/
 .main-header {
   text-align: center;
 }
+
+/*****************************
+      Content Style
+******************************/
+.content {
+  position: relative;
+  background-color: #fff;
+  border: solid 2px #000;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.content h3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+}
+.content p{
+  padding-top: 25px;
+}
+
+
+/*****************************
+      Media Queries
+******************************/
